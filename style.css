@@ -6,15 +6,19 @@ body {
     margin-top: 50px;
 }
 
+.container {
+    width: 350px;
+}
+
 h1 {
     text-align: center;
 }
-li {
-    cursor: pointer;
-    margin-top: 8px;
+
+.input-section {
+    display: flex;
+    gap: 8px;
 }
 
-.completed {
-    text-decoration: line-through;
-    color: gray;
+ul {
+    padding-left: 20px;
 }
