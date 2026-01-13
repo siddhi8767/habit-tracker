@@ -7,9 +7,14 @@ function addHabit() {
     }
 
     const li = document.createElement("li");
-    li.textContent = habitText;
+li.textContent = habitText;
 
-    document.getElementById("habitList").appendChild(li);
+li.addEventListener("click", function () {
+    li.classList.toggle("completed");
+});
+
+document.getElementById("habitList").appendChild(li);
+
 
     input.value = "";
 }

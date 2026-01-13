@@ -9,3 +9,12 @@ body {
 h1 {
     text-align: center;
 }
+li {
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
